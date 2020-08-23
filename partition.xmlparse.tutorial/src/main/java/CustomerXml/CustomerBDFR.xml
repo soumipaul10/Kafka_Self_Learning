@@ -1,0 +1,106 @@
+ <SynchroniseCustomer releaseID="1.0" languageCode="en" xmlns="http://www.kingfisher.com/oagis/9" xmlns:ns="http://www.openapplications.org/oagis/9">
+  <ApplicationArea>
+    <Sender>
+      <LogicalID>ATG</LogicalID>
+      <ComponentID>10.246.30.116</ComponentID>
+      <ReferenceID schemeName="ORIGINATING_CHANNEL">CCC</ReferenceID>
+    </Sender>
+    <CreationDateTime>2020-07-03T07:13:59.085+01:00</CreationDateTime>
+    <BODID>81672796938595</BODID>
+  </ApplicationArea>
+  <DataArea>
+    <Synchronise>
+      <ActionCriteria>
+        <ActionExpression expressionLanguage="xpath" actionCode="Modified">/SynchroniseCustomer/DataArea/Customer</ActionExpression>
+      </ActionCriteria>
+    </Synchronise>
+    <Customer>
+      <ID schemeName="ATG" schemeID="1">139036698</ID>
+      <ID schemeName="SAP" schemeID="2">0069888668</ID>
+      <Login>test.email@email.com</Login>
+      <Title>Mr</Title>
+      <GivenName>Tahil</GivenName>
+      <FamilyName>Lki</FamilyName>
+      <GenderCode/>
+      <LanguageCode>en</LanguageCode>
+      <Contact>
+        <TelephoneCommunication>
+          <UseCode>DAY</UseCode>
+          <FormattedNumber>07111111111</FormattedNumber>
+          <Preference>
+            <Description type="Usage">DayToDay</Description>
+          </Preference>
+          <Preference>
+            <Description type="Usage">OrderUpdates</Description>
+          </Preference>
+        </TelephoneCommunication>
+        <TelephoneCommunication>
+          <UseCode>EVE</UseCode>
+          <FormattedNumber>07111111111</FormattedNumber>
+          <Preference>
+            <Description type="Usage">DayToDay</Description>
+          </Preference>
+          <Preference>
+            <Description type="Usage">OrderUpdates</Description>
+          </Preference>
+        </TelephoneCommunication>
+        <EMailAddressCommunication>
+          <EMailAddressID>ABC.email@email.com</EMailAddressID>
+          <Preference>
+            <Description type="Usage">OrderUpdates</Description>
+          </Preference>
+          <Preference>
+            <Description type="Usage">DayToDay</Description>
+          </Preference>
+        </EMailAddressCommunication>
+        <Location>
+          <Address>
+            <BuildingNumber>39</BuildingNumber>
+            <BuildingName/>
+            <StreetName>Lower Stone Street</StreetName>
+            <CitySubDivisionName/>
+            <CityName>Maidstone</CityName>
+            <CountrySubDivisionCode>Kent</CountrySubDivisionCode>
+            <CountryCode>GB</CountryCode>
+            <PostalCode>ME15 6LH</PostalCode>
+          </Address>
+          <ManualKeyingIndicator>false</ManualKeyingIndicator>
+        </Location>
+      </Contact>
+      <Organisation>
+        <AccountID/>
+        <Name/>
+        <OwnerIndicator>false</OwnerIndicator>
+      </Organisation>
+      <SalesOrganisation>
+        <ID>BDFR</ID>
+      </SalesOrganisation>
+      <Type name="Retail">2</Type>
+      <GroupType name="Retail">3</GroupType>
+      <Status>
+        <Code name="Uninitialized">2</Code>
+        <Type name="Online">1</Type>
+      </Status>
+      <Status>
+        <Code name="UnBlocked">3</Code>
+        <Type name="Order">2</Type>
+      </Status>
+      <BrandChannel>
+        <Brand>
+          <Code name="B and Q">BDFR</Code>
+        </Brand>
+        <Channel>
+          <Code name="Customer Contact Centre">CCC</Code>
+        </Channel>
+      </BrandChannel>
+      <PriceSegmentGroup name="Default">ALL</PriceSegmentGroup>
+      <PreferredStoreID/>
+      <OrderReferenceRequiredIndicator>false</OrderReferenceRequiredIndicator>
+      <SensitiveIndicator>false</SensitiveIndicator>
+      <VIPIndicator>false</VIPIndicator>
+      <Token>48f3ad1a87ed5b4d3a069904580d961cdc6e035f1b03b7014077ffa66e5ab94d</Token>
+      <Transactional>false</Transactional>
+      <CustomerRegistrationDate>2020-07-03T07:13:58.823+01:00</CustomerRegistrationDate>
+    </Customer>
+  </DataArea>
+</SynchroniseCustomer>

@@ -1,0 +1,106 @@
+ <SynchroniseCustomer releaseID="1.0" languageCode="en" xmlns="http://www.kingfisher.com/oagis/9" xmlns:ns="http://www.openapplications.org/oagis/9">
+  <ns:ApplicationArea>
+    <ns:Sender>
+      <ns:LogicalID>ATG</ns:LogicalID>
+      <ns:ComponentID>10.246.30.116</ns:ComponentID>
+      <ns:ReferenceID schemeName="ORIGINATING_CHANNEL">CCC</ns:ReferenceID>
+    </ns:Sender>
+    <ns:CreationDateTime>2020-07-03T07:13:59.085+01:00</ns:CreationDateTime>
+    <ns:BODID>81672796839085</ns:BODID>
+  </ns:ApplicationArea>
+  <DataArea>
+    <Synchronise>
+      <ns:ActionCriteria>
+        <ns:ActionExpression expressionLanguage="xpath" actionCode="Modified">/SynchroniseCustomer/DataArea/Customer</ns:ActionExpression>
+      </ns:ActionCriteria>
+    </Synchronise>
+    <Customer>
+      <ns:ID schemeName="ATG" schemeID="1">139030678</ns:ID>
+      <ns:ID schemeName="SAP" schemeID="2">0090188668</ns:ID>
+      <Login>test.email@email.com</Login>
+      <ns:Title>Mr</ns:Title>
+      <ns:GivenName>Tahil</ns:GivenName>
+      <ns:FamilyName>Lki</ns:FamilyName>
+      <ns:GenderCode/>
+      <ns:LanguageCode>en</ns:LanguageCode>
+      <Contact>
+        <ns:TelephoneCommunication>
+          <ns:UseCode>DAY</ns:UseCode>
+          <ns:FormattedNumber>07111111111</ns:FormattedNumber>
+          <ns:Preference>
+            <ns:Description type="Usage">DayToDay</ns:Description>
+          </ns:Preference>
+          <ns:Preference>
+            <ns:Description type="Usage">OrderUpdates</ns:Description>
+          </ns:Preference>
+        </ns:TelephoneCommunication>
+        <ns:TelephoneCommunication>
+          <ns:UseCode>EVE</ns:UseCode>
+          <ns:FormattedNumber>07111111111</ns:FormattedNumber>
+          <ns:Preference>
+            <ns:Description type="Usage">DayToDay</ns:Description>
+          </ns:Preference>
+          <ns:Preference>
+            <ns:Description type="Usage">OrderUpdates</ns:Description>
+          </ns:Preference>
+        </ns:TelephoneCommunication>
+        <ns:EMailAddressCommunication>
+          <ns:EMailAddressID>test.email@email.com</ns:EMailAddressID>
+          <ns:Preference>
+            <ns:Description type="Usage">OrderUpdates</ns:Description>
+          </ns:Preference>
+          <ns:Preference>
+            <ns:Description type="Usage">DayToDay</ns:Description>
+          </ns:Preference>
+        </ns:EMailAddressCommunication>
+        <Location>
+          <ns:Address>
+            <ns:BuildingNumber>39</ns:BuildingNumber>
+            <ns:BuildingName/>
+            <ns:StreetName>Lower Stone Street</ns:StreetName>
+            <ns:CitySubDivisionName/>
+            <ns:CityName>Maidstone</ns:CityName>
+            <ns:CountrySubDivisionCode>Kent</ns:CountrySubDivisionCode>
+            <ns:CountryCode>GB</ns:CountryCode>
+            <ns:PostalCode>ME15 6LH</ns:PostalCode>
+          </ns:Address>
+          <ManualKeyingIndicator>false</ManualKeyingIndicator>
+        </Location>
+      </Contact>
+      <Organisation>
+        <ns:AccountID/>
+        <ns:Name/>
+        <OwnerIndicator>false</OwnerIndicator>
+      </Organisation>
+      <SalesOrganisation>
+        <ns:ID>BQ-UK</ns:ID>
+      </SalesOrganisation>
+      <ns:Type name="Retail">2</ns:Type>
+      <ns:GroupType name="Retail">3</ns:GroupType>
+      <ns:Status>
+        <ns:Code name="Uninitialized">2</ns:Code>
+        <ns:Type name="Online">1</ns:Type>
+      </ns:Status>
+      <ns:Status>
+        <ns:Code name="UnBlocked">3</ns:Code>
+        <ns:Type name="Order">2</ns:Type>
+      </ns:Status>
+      <BrandChannel>
+        <Brand>
+          <ns:Code name="B and Q">BQ</ns:Code>
+        </Brand>
+        <Channel>
+          <ns:Code name="Customer Contact Centre">CCC</ns:Code>
+        </Channel>
+      </BrandChannel>
+      <PriceSegmentGroup name="Default">ALL</PriceSegmentGroup>
+      <PreferredStoreID/>
+      <OrderReferenceRequiredIndicator>false</OrderReferenceRequiredIndicator>
+      <SensitiveIndicator>false</SensitiveIndicator>
+      <VIPIndicator>false</VIPIndicator>
+      <Token>48f3ad1a87ed5b4d3a069904580d961cdc6e035f1b03b7014077ffa66e5ab94d</Token>
+      <Transactional>false</Transactional>
+      <CustomerRegistrationDate>2020-07-03T07:13:58.823+01:00</CustomerRegistrationDate>
+    </Customer>
+  </DataArea>
+</SynchroniseCustomer>

@@ -1,0 +1,5 @@
+kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 3 --topic part-demo
+
+kafka-console-producer.bat --broker-list localhost:9092 --topic part-demo
+
+kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic part-demo
